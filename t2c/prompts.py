@@ -30,7 +30,7 @@ _FEW_SHOT = """# דוגמאות
   "actions": [],
   "approved": false,
   "message": "איפוס מסד נתונים אינו פעולה נתמכת במערכת."
-}"""
+}"""   
 
 
 def build_system_prompt() -> str:
