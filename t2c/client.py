@@ -23,7 +23,7 @@ def generate_json(system_prompt: str, user_text: str, response_schema: dict,
     הפרסור עצמו נעשה בשכבה שמעל — הקובץ הזה רק "מדבר" עם ה-API.
 
     temperature=0.0 כברירת מחדל = תשובות עקביות (חשוב לבטיחות).
-    בשלב 4 (Self-Consistency) נעלה אותו בכוונה על מנת לקבל מגוון.
+    בשלב 4 (Self-Consistency) נעלה אותו בכוונה כדי לקבל מגוון.
     """
     response = _client.models.generate_content(
         model=config.MODEL,
